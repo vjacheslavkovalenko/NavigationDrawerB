@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NavigationDrawerB" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+<!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+<!--         <item name="android:statusBarColor">@color/purple_700</item>-->
+<!--        <item name="colorSecondary">@color/purple_700</item>-->
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="actionBarStyle">@style/ActionBarCustom</item>
+    </style>
+
+    <style name="Theme.NavigationDrawerB" parent="Base.Theme.NavigationDrawerB" />
+
+    <style name="ActionBarCustom" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/purple_700</item>
+    </style>
+
+</resources>
